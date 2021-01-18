@@ -40,3 +40,22 @@ for(int index=0;index<jobs.size();index++){
     }
     
 }
+可能会出现的问题
+因为涉及到获取jenkins的参数，可能会存在权限的问题
+处理点击Manage Jenkins-->In-process scriptApproval 
+method hudson.model.AbstractBuild doStop
+method hudson.model.Job getBuildByNumber int
+method hudson.model.Run isBuilding
+method jenkins.model.Jenkins getItemByFullName java.lang.String
+staticMethod jenkins.model.Jenkins getInstance
+相关jenkins插件:
+Job Configuration History
+Localization: Chinese (Simplified)
+Log Parser Plugin
+Python Plugin
+SSH Agent Plugin
+Script Security Plugin
+Gerrit Trigger
+export dynamic job data
+https://segmentfault.com/a/1190000021513223
+Jenkins build failure analyzer plugin
